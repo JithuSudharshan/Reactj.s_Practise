@@ -1,3 +1,48 @@
-#heading{
-    color: red;
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    align-self: center;
+    height: 200px;
+}
+.brand-name{
+    padding-left: 60px;
+}
+.logo{
+    width: 150px;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-list > ul{
+    display: flex;
+}
+.nav-list > ul > li{
+    align-self: last baseline;
+    list-style-type: none;
+    margin: 20px;
+}
+.product-card{
+    background-color: #f0f0f0;
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.product-img{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.body{
+    margin: 30px;
+    align-self: center;
 }
