@@ -5,8 +5,15 @@
     align-self: center;
     height: 200px;
 }
+.logo-container{
+    display: inline-block;
+}
 .brand-name{
-    padding-left: 60px;
+    padding-left: 12px;
+    font-size:xx-large;
+    margin: 0px;
+    font-weight: 100;
+    color:#a38406;
 }
 .logo{
     width: 150px;
@@ -45,4 +52,7 @@
 .body{
     margin: 30px;
     align-self: center;
+}
+.filter-btn{
+    margin: 10px;
 }
