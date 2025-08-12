@@ -46,7 +46,7 @@
 }
 .cards{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .body{
@@ -55,4 +55,25 @@
 }
 .filter-btn{
     margin: 10px;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    align-self: center;
+}
+.shimmer-card{
+
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+.login-btn{
+    align-self: last baseline;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
 }
